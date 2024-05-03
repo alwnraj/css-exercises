@@ -1,0 +1,19 @@
+.pclass {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#num2 {
+    color: blue;
+    font-size: 36px;
+}
+
+#green {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.font-size {
+    font-size: 24px;
+}
