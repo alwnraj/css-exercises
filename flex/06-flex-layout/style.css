@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 img {
@@ -15,7 +19,7 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +27,64 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {  /*This removes the bullet points*/
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.header {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+*/
+
+
+/* .left-links {
+  margin-left: -10px;
+} */
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: lightgrey;
 }
